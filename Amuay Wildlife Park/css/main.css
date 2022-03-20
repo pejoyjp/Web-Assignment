@@ -1,14 +1,14 @@
 /*header */
 .logo{
     float:left;
-    width: 170px;
+    width: 175px;
     height: 50px;
 
 }
 /* nav */
 .navbar {
 
-    width: 100%;
+    width: 1519px;
 
     height: 50px;
 
@@ -30,7 +30,7 @@
 
     float: left;
 
-    width: 190px;
+    width: 191px;
 
     height: 50px;
 
@@ -134,7 +134,7 @@
     color: cadetblue;
 }
 .wrap{
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
 
 }
@@ -239,21 +239,21 @@
 .contactus{
     background: rgba(22,27,29);
     height: 332px;
-    width:33%;
+    width:506px;
     float: left;
     color: rgba(229,239,193);
 
 }
 .helpus{
     height: 332px;
-    width:33%;
+    width:506px;
     float: left;
     background: rgba(206,234,211);
     color: rgba(42,54,59);
 }
 .followus{
     height: 332px;
-    width:33%;
+    width:506px;
     float: left;
     background: rgba(37,113,95);
     color: white;
@@ -264,4 +264,61 @@
     font-size: 38px;
     font-family: 'Ubuntu', sans-serif;
     text-align:center;
+}
+/*About page */
+.abouthead{
+    height: 300px;
+    width: 1519px;
+    background-image: url('../images/lizard.jpg');
+    background-size: 100%;
+}
+
+.abouthead span{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(42,54,59);
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.aboutcontainer1{
+    height: 500px;
+    width: 1519px;
+}
+.aboutcontainer1 .title p{
+    font-size: 33px;
+    position: relative;
+    font-family:"Candara Light",sans-serif;
+    font-weight: bold;
+    color: rgba(42,54,59);
+    width: 230px;
+    top: 110px;
+    left: 130px;
+}
+
+.aboutcontainer1 .content p{
+    width: 700px;
+    font-size: 21px;
+    position: relative;
+    font-family:"Candara Light",sans-serif;
+    left: 400px;
+}
+
+.aboutcontainer2{
+    height: 792px;
+    width: 1519px;;
+    background-image: url("../images/monkey.jpg");
+    background-size: 100%;
+}
+
+.aboutcontainer2 div{
+    width: 800px;
+    height: 600px;
+    background-color: rgba(229,239,193);
+    position: relative;
+    top: 80px;
+    left: 400px;
+    font-family:"Candara Light",sans-serif;
+    font-size: 17px;
+
 }
