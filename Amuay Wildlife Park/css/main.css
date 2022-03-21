@@ -113,7 +113,7 @@
     width: 100%;
     height: 400px;
     list-height: 40px;
-    background-color: RGB(220,237,193);
+    background-color: RGB(243,251,255);
     font-size: 14px;
     background-image: url("../images/phto.png");
     background-repeat:no-repeat;
@@ -142,8 +142,10 @@
 .banner{
     width: 100%;
     height: 650px;
-    background-color: RGB(255,211,182);
+    margin-top: 20px;
+    background-image: url("../images/giraffe-spots.png");
     background-size: 100%;
+
 }
 .banner-box{
     width: 1000px;
@@ -269,21 +271,23 @@
 .abouthead{
     height: 300px;
     width: 1519px;
-    background-image: url('../images/lizard.jpg');
+    background-image: url('../images/about.jpg');
     background-size: 100%;
 }
 
-.abouthead span{
+.abouthead span, .galleryhead span, .enrichmenthead span{
     font-size: 70px;
     font-family: 'Ubuntu', sans-serif;
     color: rgba(42,54,59);
     position: absolute;
     top: 250px;
     left: 50px;
+
 }
 .aboutcontainer1{
     height: 500px;
     width: 1519px;
+
 }
 .aboutcontainer1 .title p{
     font-size: 33px;
@@ -309,6 +313,7 @@
     width: 1519px;;
     background-image: url("../images/monkey.jpg");
     background-size: 100%;
+    margin-bottom: 10px;
 }
 
 .aboutcontainer2 div{
@@ -323,9 +328,122 @@
 
 }
 
+/*gallery */
+.galleryhead{
+    height: 300px;
+    width: 1519px;
+    background-image: url('../images/gallery.jpg');
+    background-size: 100%;
+}
+
+
+.gallerycontainer1{
+    text-align: center;
+    width: 1519px;
+}
+
+.gallerycontainer1 h1{
+
+    color: rgba(54,173,71);
+    margin-top: 30px;
+    font-family: "Merriweather", Garamond, Georgia, Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.gallerycontainer1 p{
+    font-size: 1.625rem;
+    font-family: "Merriweather", georgia, "times new roman", serif;
+    margin-bottom: 50px;
+
+}
+
+.gallerypictures .combination{
+    width: 1519px;
+
+}
+.gallerypictures{
+
+    width: 1519px;
+    background-color: black;
+}
+
+.mainpics div{
+    height: 400px;
+    width: 100%;
+
+}
+
+.mainpics p{
+    margin-top: 30px;
+    font-size: 18px;
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 400px;
+    height: 350px;
+    color: silver;
+    text-align: left;
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+}
 
 
 
+.mainpics img{
+    width: 700px;
+    height: 350px;
+    position: relative;
+    float: right;
+    right: 10%;
+    margin-top: 30px;
+}
+
+/*enrichment */
+
+.enrichmenthead{
+    height: 300px;
+    width: 1519px;
+    background-image: url('../images/enrichment.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.enrichmentcontainer p{
+    margin: 100px 40%;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(122,160,128);
+    width: 300px;
+    font-family: Arial,Helvetica,sans-serif;;
+}
 
 
+.enrichmentcontainer div{
+    margin: 30px auto;
+    width: 1125px;
+    height: 208px;
+    background-color: #00cecb;
+    color: rgba(92,103,108);
+}
+
+.enrichmentcontainer a{
+    text-decoration:none;
+
+}
+
+.enrichmentcontainer a:hover {
+    color: salmon;
+}
+
+
+
+.enrichmentcontainer span{
+    position: relative;
+    font-size: 23px;
+    font-family: Arial,Helvetica,sans-serif;
+    left: 5%;
+    bottom: 20%;
+
+}
 
