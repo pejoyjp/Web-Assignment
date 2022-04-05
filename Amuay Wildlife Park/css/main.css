@@ -7,17 +7,10 @@
 }
 /* nav */
 .navbar {
-
     width: 1519px;
-
     height: 50px;
-
     background-color: white;
-
     box-shadow: 0 -2px 2px white;
-
-
-
 }
 
 .navbar ul {
@@ -123,9 +116,10 @@
 }
 .slogan p{
     margin-left: 300px;
-    color: rgb(255,131,124);
+    color: black;
+    font-weight: bold;
 }
-
+/*Slogan end*/
 
 .container{
     background-color: cornsilk;
@@ -173,17 +167,28 @@
 }
 
 /*fill*/
-.container1{
-    height: 1000px;
+.container{
+    padding: 50px 50px;
+    height: 500px;
     width: 100%;
-    background: cornsilk;
+    background: white;
+
+}
+.container img{
+
+    height: 400px;
+
 }
 
-.container2{
-    height: 1000px;
-    width: 100%;
-    background: #6dc7ec;
+.container p{
+    width: 800px;
+    float: right;
+    font-family:"Times New Roman",Georgia,Serif;
+    font-size: 25px;
+    position: relative;
+    right: 20%;
 }
+
 
 /*Navi */
 #nav {
@@ -245,6 +250,25 @@
     float: left;
     color: rgba(229,239,193);
 
+}
+.contactus a, .helpus a, .followus a{
+    font-size: 18px;
+    color: silver;
+}
+.contactus img{
+    width: 50px;
+    position: absolute;
+    left: 5%;
+}
+.helpus img{
+    width: 50px;
+    position: absolute;
+    left: 43%;
+}
+.followus img{
+    width: 50px;
+    position: absolute;
+    left: 76%;
 }
 .helpus{
     height: 332px;
