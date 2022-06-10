@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  border: white;
+  box-shadow: 1px 3px;
+  background: rgba(197,239,253);
+
+}
+body{
+  background-image: url("../images/background_kid.jpg");
+  background-size: cover;
+}
+
+/*header start*/
+.header{
+  color: white;
+}
+
+.header .logo{
+  float: left;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 1px;
+}
+.header a{
+  color: inherit;
+}
+.header .email{
+  position: absolute;
+  top: 1vh;
+  left: 20px;
+  border-bottom: solid white 1px;
+}
+
+.header .phone{
+  position: absolute;
+  top: 1.3vh;
+  left: 220px;
+
+}
+
+.header button:hover{
+  background-color: #a38bdb;
+  cursor: pointer;
+}
+
+.header .donate{
+  position: absolute;
+  height: 30px;
+  width: 130px;
+  font-size: 10px;
+  right: 20px;
+  top: 30px;
+}
+.header .volunteer{
+  position: absolute;
+  height: 30px;
+  width: 150px;
+  font-size: 10px;
+  right: 20px;
+  top: 70px;
+}
+/*header end*/
+
+/*navi-bar start*/
+.navi-bar{
+  width: 100%;
+  height: 250px;
+  background-color: rgba(15,116,187);
+}
+.navi-bar .nav{
+  width: 1000px;
+  height: 100%;
+  margin-left: 250px;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+
+}
+
+.navi-bar .nav ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  width: 100%;
+  height: 20%;
+
+}
+.navi-bar .nav ul > li{
+  width: 100%;
+  height: 100%;
+
+}
+.navi-bar .nav ul > li > a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 70px;
+  color: white;
+
+}
+.navi-bar .nav ul > li ol{
+  width: 80%;
+  background-color: white;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: all 0.6s;
+}
+.navi-bar .nav ul > li:hover{
+  text-decoration: underline;
+}
+.navi-bar .nav ul > li:hover ol{
+  transform: scaleY(1);
+}
+.navi-bar .nav ul > li ol li:hover{
+  background-color: rgba(15,116,187);
+}
+.navi-bar .nav ul > li ol a{
+  line-height: 30px;
+  color: black;
+}
+/*navi-bar end*/
+
+.payment{
+  background: #f8f8f8;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 8px 8px 5px #888888;
+}
+
+.payment h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #0d3c61;
+}
+
+.form .label{
+  display: block;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.input{
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 16px;
+  color: #555555;
+}
+
+.card-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 48%;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+.icon-relative{
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far{
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+#btn{
+  margin-top: 40px;
+  background: #2196F3;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.payment-logo{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  text-align: center;
+  line-height: 85px;
+}
+
+.payment-logo:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background: #2196F3;
+  border-radius: 50%;
+}
+
+.payment-logo p{
+  position: relative;
+  color: #f8f8f8;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 58px;
+}
+#submit{
+  width: 100%;
+  height: 30px;
+  background: seagreen;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 420px){
+  .card-grp{
+    flex-direction: column;
+  }
+  .card-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+
+/*bottom start */
+.bottom{
+  height: 300px;
+  width: 100%;
+  background:rgba(15,80,126);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom span{
+  color: rgba(255,222,1);
+  padding: 8px;
+  font-family: 'Ubuntu', sans-serif;;
+}
+.bottom i{
+  color: white;
+}
+.bottom p{
+  color: white;
+  padding: 5px;
+  font-family: 'Ubuntu', sans-serif;;
+}
+.bottom a:hover{
+  text-decoration: underline;
+}
+/*bottom end */

@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    border: white;
+    box-shadow: 1px 3px;
+    background: rgba(197,239,253);
+
+}
+
+
+/*header start*/
+.header{
+    float: left;
+    color: white;
+}
+
+.header .logo{
+    height: 200px;
+    position: absolute;
+    top: 40px;
+}
+.header a{
+    color: inherit;
+}
+.header .email{
+    position: absolute;
+    top: 1vh;
+    left: 20px;
+    border-bottom: solid white 1px;
+}
+
+.header .phone{
+    position: absolute;
+    top: 1.3vh;
+    left: 220px;
+
+}
+
+.header button:hover{
+    background-color: #a38bdb;
+    cursor: pointer;
+}
+
+.header .donate{
+    position: absolute;
+    height: 30px;
+    width: 130px;
+    font-size: 10px;
+    right: 20px;
+    top: 30px;
+}
+.header .volunteer{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    font-size: 10px;
+    right: 20px;
+    top: 70px;
+}
+/*header end*/
+
+
+
+/* container start */
+.container{
+    height: 1100px;
+    width: 100%;
+    background-image: url("../images/background_kid.jpg");
+    background-size: cover;
+}
+
+.profile-section{
+    position: relative;
+    left: 15%;
+    top:100px;
+    width: 1100px;
+    height: 900px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+}
+.container h1{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.detail{
+    padding: 100px;
+}
+.detail li{
+    font-family: "Gill Sans Ultra Bold Condensed";
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 70%;
+}
+.detail li .box{
+    width: 230px;
+    margin: 20px 0;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    border-bottom: 3px solid rgba(80,80,170);
+    font: 900 10px "";
+
+}
+
+.container #profile{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    overflow:hidden;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+}
+.container #qr{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+.container #qrcode {
+    width:160px;
+    height:160px;
+    margin-top:30px;
+}
+.container #profile{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    overflow:hidden;
+}
+/*container end*/
+
+
+/*navi-bar start*/
+.navi-bar{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(15,116,187);
+}
+.navi-bar .nav{
+    width: 1000px;
+    height: 100%;
+    margin-left: 250px;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+
+}
+
+.navi-bar .nav ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    width: 100%;
+    height: 20%;
+
+}
+.navi-bar .nav ul > li{
+    width: 100%;
+    height: 100%;
+
+}
+.navi-bar .nav ul > li > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 70px;
+    color: white;
+
+}
+.navi-bar .nav ul > li ol{
+    width: 80%;
+    background-color: white;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: all 0.6s;
+}
+.navi-bar .nav ul > li:hover{
+    text-decoration: underline;
+}
+.navi-bar .nav ul > li:hover ol{
+    transform: scaleY(1);
+}
+.navi-bar .nav ul > li ol li:hover{
+    background-color: rgba(15,116,187);
+}
+.navi-bar .nav ul > li ol a{
+    line-height: 30px;
+    color: black;
+}
+/*navi-bar end*/
+
+#text{
+    position: relative;
+    height: 30px;
+    width: 230px;
+    top: 13px;
+    left: 10px;
+    font-family: "Calibri Light";
+    font-size: 15px;
+}
+
+
+
+/*bottom start */
+.bottom{
+
+    height: 300px;
+    width: 100%;
+    background:rgba(15,80,126);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom span{
+    color: rgba(255,222,1);
+    padding: 8px;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.bottom i{
+    color: white;
+}
+.bottom p{
+    color: white;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+/*bottom end */

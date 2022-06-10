@@ -1,0 +1,241 @@
+/*Heading */
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  border: white;
+  box-shadow: 1px 3px;
+  background: rgba(197,239,253);
+
+}
+
+
+/*header start*/
+.header{
+  float: left;
+  color: white;
+}
+
+.header .logo{
+  height: 200px;
+  position: absolute;
+  top: 40px;
+}
+.header a{
+  color: inherit;
+}
+.header .email{
+  position: absolute;
+  top: 1vh;
+  left: 20px;
+  border-bottom: solid white 1px;
+}
+
+.header .phone{
+  position: absolute;
+  top: 1.3vh;
+  left: 220px;
+
+}
+
+.header button:hover{
+  background-color: #a38bdb;
+  cursor: pointer;
+}
+
+.header .donate{
+  position: absolute;
+  height: 30px;
+  width: 130px;
+  font-size: 10px;
+  right: 20px;
+  top: 30px;
+}
+.header .volunteer{
+  position: absolute;
+  height: 30px;
+  width: 150px;
+  font-size: 10px;
+  right: 20px;
+  top: 70px;
+}
+/*header end*/
+
+/*navi-bar start*/
+.navi-bar{
+  width: 100%;
+  height: 250px;
+  background-color: rgba(15,116,187);
+}
+.navi-bar .nav{
+  width: 1000px;
+  height: 100%;
+  margin-left: 250px;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+
+}
+
+.navi-bar .nav ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  width: 100%;
+  height: 20%;
+
+}
+.navi-bar .nav ul > li{
+  width: 100%;
+  height: 100%;
+
+}
+.navi-bar .nav ul > li > a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 70px;
+  color: white;
+
+}
+.navi-bar .nav ul > li ol{
+  width: 80%;
+  background-color: white;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: all 0.6s;
+}
+.navi-bar .nav ul > li:hover{
+  text-decoration: underline;
+}
+.navi-bar .nav ul > li:hover ol{
+  transform: scaleY(1);
+}
+.navi-bar .nav ul > li ol li:hover{
+  background-color: rgba(15,116,187);
+}
+.navi-bar .nav ul > li ol a{
+  line-height: 30px;
+  color: black;
+}
+/*navi-bar end*/
+h1 {
+  color: #0F74BB
+}
+
+/*container start*/
+
+.container{
+  margin: 30px 0 70px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/background_kid.jpg");
+  background-size: cover;
+
+}
+
+.Image1 .transparent{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);/* Fallback color */
+  background: rgba(15, 116, 187, 0.5);/* Black background with opacity */
+  color: #FFFFFF;
+  padding: 20px;
+  width: 39%;
+  text-align: center;
+
+}
+
+.Image1{
+  position: absolute;
+  top: 350px;
+  left: 25%;
+
+}
+
+.Button1{
+  background-color: #FAC710;
+  color: #0F74BB;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 450px;
+  padding: 16px 32px;
+  width: 23%;
+  border: 0;
+  position: absolute;
+  left: 25%;
+  top: 610px;
+}
+
+.Image2 .transparent{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);/* Fallback color */
+  background: rgba(15, 116, 187, 0.5);/* Black background with opacity */
+  color: #FFFFFF;
+  padding: 20px;
+  width: 39%;
+  text-align: center;
+
+}
+
+.Image2{
+  position: absolute;
+  top: 350px;
+  left: 50%;
+      
+}
+
+.Button2{
+  background-color: #FAC710;
+  color: #0F74BB;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 450px;
+  padding: 16px 32px;
+  width: 23%;
+  border: 0;
+  position: absolute;
+  left: 50%;
+  top: 610px;
+}
+/*container end*/
+
+/*bottom start */
+.bottom{
+  height: 300px;
+  width: 100%;
+  background:rgba(15,80,126);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom span{
+  color: rgba(255,222,1);
+  padding: 8px;
+  font-family: 'Ubuntu', sans-serif;;
+}
+.bottom i{
+  color: white;
+}
+.bottom p{
+  color: white;
+  padding: 5px;
+  font-family: 'Ubuntu', sans-serif;;
+}
+.bottom a:hover{
+  text-decoration: underline;
+}
+/*bottom end */

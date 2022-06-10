@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+
+input[type=text] {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px white;
+  border-radius: 4px;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LoginPage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+  <a href="<a href="mailto:coordinator@galwayautismpartnership.com?subject=feedback"></a>
+  <img src="C:\Users\Monika\OneDrive\Documents\PROJECT\WEBPAGES\logo.png" alt="LOGO" style="width:10%; height:50%">
+</div>
+<h1>Create Membership Now with Galway Autism Partneship</h1>
+<div class="loginbox">
+<h1>Register/SignUp</h1>
+<form>
+  <div class="w3-card-4">
+    <div class="w3-container w3-brown">
+      <h2>Member Details</h2>
+    </div>
+
+    <form class="container1" action="/action_page.php">
+      <p>
+      <label class="text1"><b>First Name</b></label>
+      <input class="text1" name="first" type="text"></p>
+      <p>
+      <label class="text2"><b>Last Name</b></label>
+      <input class="text2" name="last" type="text"></p>
+      <p>
+      <p>
+      <label class="text3"><b>User-Email</b></label>
+      <input class="text3" name="Email" type="text"></p>
+      <p>
+      <p>
+      <label class="text4"><b>Password</b></label>
+      <input class="text4" name="password" type="text"></p>
+      <p>
+      <p>
+      <label class="w3-text-brown"><b>Confirm Password</b></label>
+      <input class="w3-input w3-border w3-sand" name="ConfirmPwd" type="text"></p>
+      <p>
+      <p>
+      <label class="w3-text-brown"><b>Phone Number</b></label>
+      <input class="w3-input w3-border w3-sand" name="Phone" type="number"></p>
+      <p>
+      <p>
+      <label class="w3-text-brown"><b>Date Of Birth</b></label>
+      <input class="w3-input w3-border w3-sand" name="DOB" type="text"></p>
+      <p>
+      <button class="w3-btn w3-brown">Register</button></p>
+    </form>
+  </div>
+  <a href="#">Forgot Password?</a><br>
+</form>
+</div>
+<div class="footer">
+  <a href="<a href="mailto:coordinator@galwayautismpartnership.com?subject=feedback"></a>
+</div>
+
+<div class="footer">
+  <a href="<a href="mailto:coordinator@galwayautismpartnership.com?subject=feedback"></a>
+</div>
+
+</body>
+</html>

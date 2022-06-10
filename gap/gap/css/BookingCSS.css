@@ -1,0 +1,307 @@
+/*Heading */
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+button{
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 5px;
+	border: white;
+	box-shadow: 1px 3px;
+	background: rgba(197,239,253);
+
+}
+
+
+/*header start*/
+.header{
+	color: white;
+	position: relative;
+}
+
+.logo{
+	float: left;
+	height: 200px;
+	position: absolute;
+	top: 40px;
+	left: 1px;
+
+
+}
+.header a{
+	color: inherit;
+}
+.header .email{
+	position: absolute;
+	top: 1vh;
+	left: 20px;
+	border-bottom: solid white 1px;
+}
+
+.header .phone{
+	position: absolute;
+	top: 1.3vh;
+	left: 220px;
+
+}
+
+.header button:hover{
+	background-color: #a38bdb;
+	cursor: pointer;
+}
+
+.header .donate{
+	position: absolute;
+	height: 30px;
+	width: 130px;
+	font-size: 10px;
+	right: 20px;
+	top: 30px;
+}
+.header .volunteer{
+	position: absolute;
+	height: 30px;
+	width: 150px;
+	font-size: 10px;
+	right: 20px;
+	top: 70px;
+}
+/*header end*/
+
+/*navi-bar start*/
+.navi-bar{
+	width: 100%;
+	height: 250px;
+	background-color: rgba(15,116,187);
+}
+.navi-bar .nav{
+	width: 1000px;
+	height: 100%;
+	margin-left: 250px;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+
+}
+
+.navi-bar .nav ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 100px;
+	width: 100%;
+	height: 20%;
+
+}
+.navi-bar .nav ul > li{
+	width: 100%;
+	height: 100%;
+
+}
+.navi-bar .nav ul > li > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: block;
+	line-height: 70px;
+	color: white;
+
+}
+.navi-bar .nav ul > li ol{
+	width: 80%;
+	background-color: white;
+	transform: scaleY(0);
+	transform-origin: 50% 0;
+	transition: all 0.6s;
+}
+.navi-bar .nav ul > li:hover{
+	text-decoration: underline;
+}
+.navi-bar .nav ul > li:hover ol{
+	transform: scaleY(1);
+}
+.navi-bar .nav ul > li ol li:hover{
+	background-color: rgba(15,116,187);
+}
+.navi-bar .nav ul > li ol a{
+	line-height: 30px;
+	color: black;
+}
+/*navi-bar end*/
+
+
+
+h2, p {
+  color: #0F74BB
+}
+
+.information{
+  margin-left: 750px;
+  padding: 25px;
+}
+
+.events{
+  background-color: #FAC710;
+ padding: 25px;
+}
+
+.events img {
+ max-width: 17%;
+ margin-left: 180px;
+
+}
+
+#Button1{
+	background-color: rgba(250,199,16);
+	height: 30px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	top: 650px;
+	left: 250px;
+}
+#Button1:hover{
+	cursor: pointer;
+	background-color: #0F74BB;
+
+}
+
+
+
+h1 {
+	margin: 30px 0px;
+	color: #313131;
+	font-size: 42px;
+	font-weight: 900;
+	text-align: center;
+}
+
+h1 span {
+	font-weight: 300;
+}
+
+.date-picker {
+	position: relative;
+	top: 90px;
+	width: 100%;
+	max-width: 300px;
+	height: 52px;
+	background-color: #FFFFFF;
+  margin-left: 150px;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	user-select: none;
+}
+
+
+.date-picker:hover {
+	background-color: #F4F4F4;
+}
+
+.date-picker .selected-date {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #000000;
+	font-size: 26px;
+}
+
+.date-picker .dates {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+
+	background-color: #FFFFFF;
+}
+
+.date-picker .dates{
+	display: block;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-picker .dates .month {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #F4F4;
+}
+
+.date-picker .dates .month .arrows {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+	font-size: 20px;
+}
+
+.date-picker .dates .month .arrows:hover {
+	background-color: #F4F4F4;
+}
+
+.date-picker .dates .month .arrows:active {
+	background-color: #0F74BB;
+}
+
+.date-picker .dates .days {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	height: 210px;
+}
+.date-picker .dates .days .day {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+}
+.date-picker .dates .days .day.selected {
+	background-color: #0F74BB;
+}
+
+.previous, .next{
+  color: #0F74BB;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*bottom start */
+.bottom{
+	height: 300px;
+	width: 100%;
+	background:rgba(15,80,126);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom span{
+	color: rgba(255,222,1);
+	padding: 8px;
+	font-family: 'Ubuntu', sans-serif;;
+}
+.bottom i{
+	color: white;
+}
+.bottom p{
+	color: white;
+	padding: 5px;
+	font-family: 'Ubuntu', sans-serif;;
+}
+.bottom a:hover{
+	text-decoration: underline;
+}
+/*bottom end */

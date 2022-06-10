@@ -1,0 +1,57 @@
+body {
+background: url(C:/Users/Monika/OneDrive/Documents/PROJECT/WEBPAGES/imageedit_3.jpg) no-repeat center center fixed ;
+background-size: cover;
+
+}
+
+h1{
+  color: white;
+}
+
+.header{
+  background-color: #0F8ECD;
+  padding: 10px;
+  padding-left: 15px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px
+}
+
+.footer{
+  background-color: #0F8ECD;
+  padding: 10px;
+  padding-left: 15px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 
+}
+
+
+.loginbox{
+  padding: 80px;
+  width: 400px;
+  height: 650px;
+  border-radius: 25px;
+  border-width: 15px;
+  color: #000;
+  top: 75%;
+  left: 50%;
+  bottom: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  margin-top: 200px;
+  border: 1px solid white;
+  font-family: "Rockwell Condensed";
+  transition: all 0.3s;
+
+}
+
+
+h1{
+  margin 0:
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
